@@ -1,0 +1,40 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+@import 'styles/themes';
+@import 'styles/components/components.scss';
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url('~/assets/webfonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+body {
+    display: flex;
+    flex-grow: 1;
+    max-height: 100vh;
+    overflow: hidden;
+    font-family: "JetBrains Mono", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+app-root {
+    display: flex;
+    flex-grow: 1;
+}
+
+p-sidebar {
+    display: flex;
+    flex-grow: 1;
+}
+
+.pull-down {
+    margin-top: auto;
+    margin-bottom: 0;
+}

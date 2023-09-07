@@ -1,0 +1,17 @@
+
+
+select {
+    background: var(--background1);;
+    color: var(--foreground0);
+    border: 1px solid var(--foreground0);
+    height: var(--component-height);
+    padding: 0 1rem;
+    border-radius: var(--border-radius);
+
+    &:hover {
+        filter: brightness(0.9);
+    }
+    &:active {
+        filter: brightness(0.8);
+    }
+}

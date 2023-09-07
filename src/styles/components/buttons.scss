@@ -1,0 +1,24 @@
+.icon-button, .button {
+    height: var(--component-height);
+    background: transparent;
+    color: var(--foreground0);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--foreground0);
+    cursor: pointer;
+
+    &:hover {
+        -webkit-filter: brightness(70%);
+    }
+    &:active {
+        -webkit-filter: brightness(50%);
+    }
+
+    &.active {
+        background: var(--foreground0);
+        color: var(--background0);
+    }
+}
+
+.icon-button {
+    width: var(--component-height);
+}

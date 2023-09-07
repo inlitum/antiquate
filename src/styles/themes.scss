@@ -1,0 +1,158 @@
+/*
+Theme example:
+
+.<theme-name> {
+    --background0: #000000;
+    --background1: #000000;
+    --background2: #000000;
+    --background3: #000000;
+
+    --foreground0: #000000;
+    --foreground1: #000000;
+    --foreground2: #000000;
+    --foreground3: #000000;
+
+    --red: #000000;
+    --green: #000000;
+    --blue: #000000;
+    --yellow: #000000;
+    --additional: #000000;
+
+    --border-radius: 16px;
+    --component-height: 24px;
+}
+ */
+
+.nord-dark {
+    --background0: #2E3440;
+    --background1: #3B4252;
+    --background2: #434C5E;
+    --background3: #4C566A;
+
+    --foreground0: #ECEFF4;
+    --foreground1: #E5E9F0;
+    --foreground2: #D8DEE9;
+
+    --red: #BF616A;
+    --green: #A3BE8C;
+    --blue: #5E81AC;
+    --yellow: #EBCB8B;
+    --additional: #B48EAD;
+
+    --border-radius: 1rem;
+    --component-height: 40px;
+}
+
+.nord-light {
+    --foreground0: #2E3440;
+    --foreground1: #3B4252;
+    --foreground2: #434C5E;
+    --foreground3: #4C566A; 
+
+    --background0: #ECEFF4;
+    --background1: #E5E9F0;
+    --background2: #D8DEE9;
+    --background3: #D8DEE9;
+
+    --red: #BF616A;
+    --green: #A3BE8C;
+    --blue: #5E81AC;
+    --yellow: #EBCB8B;
+    --additional: #B48EAD;
+
+    --border-radius: 1rem;
+    --component-height: 40px;
+}
+
+.solarized-dark {
+    --background0 : #002B36;
+    --background1 : #073642;
+    --background2 : #094453;
+    --background3 : #0C5D72;
+
+    --foreground0 : #FDF6E3;
+    --foreground1 : #EEE8D5;
+    --foreground2 : #D3CEBC;
+    --foreground3 : #D3CEBC;
+
+    --accent0     : #93A1A1;
+    --accent1     : #839496;
+    --accent2     : #657B83;
+    --blue        : #586E75;
+
+    --red         : #DC322F;
+    --yellow      : #EBCB8B;
+    --green       : #859900;
+    --additional  : #2AA198;
+
+    --border-radius: 1rem;
+    --component-height: 40px;
+    --animation-time: 300ms;
+}
+
+.solarized-light {
+    --background0 : #FDF6E3;
+    --background1 : #EEE8D5;
+    --background2 : #D3CEBC;
+    --background3 : #D3CEBC;
+
+    --foreground0 : #002B36;
+    --foreground1 : #073642;
+    --foreground2 : #094453;
+    --foreground3 : #0C5D72;
+
+    --accent0     : #93A1A1;
+    --accent1     : #839496;
+    --accent2     : #657B83;
+    --blue        : #586E75;
+
+    --red         : #DC322F;
+    --yellow      : #EBCB8B;
+    --green       : #859900;
+    --additional  : #2AA198;
+
+    --border-radius: 1rem;
+    --component-height: 40px;
+    --animation-time: 300ms;
+}
+
+.catppuccin-mocha{
+    --background0: #1e1e2e;
+    --background1: #313244;
+    --background2: #45475a;
+    --background3: #585b70;
+
+    --foreground0: #cdd6f4;
+    --foreground1: #bac2de;
+    --foreground2: #a6adc8;
+    --foreground3: #9399b2;
+
+    --red: #f38ba8;
+    --green: #a6e3a1;
+    --blue: #b4befe;
+    --yellow: #f9e2af;
+    --additional: #f2cdcd;
+    --border-radius: 16px;
+    --component-height: 40px;
+}
+
+.catppuccin-latte{
+    --background0: #eff1f5;
+    --background1: #ccd0da;
+    --background2: #bcc0cc;
+    --background3: #acb0be;
+
+    --foreground0: #4c4f69;
+    --foreground1: #5c5f77;
+    --foreground2: #6c6f85;
+    --foreground3: #7c7f93;
+
+
+    --red: #f38ba8;
+    --green: #a6e3a1;
+    --blue: #b4befe;
+    --yellow: #f9e2af;
+    --additional: #f2cdcd;
+    --border-radius: 16px;
+    --component-height: 40px;
+}
