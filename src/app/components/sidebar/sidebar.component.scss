@@ -1,0 +1,35 @@
+
+.sidebar {
+    background: var(--background1);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-grow: 1;
+}
+
+.side-bar-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 1rem;
+    width: var(--component-height);
+}
+
+.opened {
+    height: 100%;
+}
+
+.opening {
+    p-sidebar-item {
+        display : none;
+    }
+
+    height: 1%;
+    animation-name: example;
+    //animation-duration: var(--animation-time);
+}
+
+@keyframes example {
+    from {height: 10px;}
+    to {height: 100%;}
+}

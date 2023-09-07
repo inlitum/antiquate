@@ -1,0 +1,20 @@
+.settings-container {
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+.top-layer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+}
+
+.theme-card {
+    max-width: 250px;
+}
+
+.case-card {
+    max-width: 300px;
+}

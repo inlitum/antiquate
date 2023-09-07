@@ -1,0 +1,50 @@
+.blog-container {
+    width : 100%;
+    max-width     : 1200px;
+    height    : 100%;
+
+    margin: 0 auto;
+
+    display   : flex;
+    flex-grow : 1;
+}
+
+.blog-post-container {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.posts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.post {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    img {
+        border-radius: 1rem;
+        max-width: 100%;
+    }
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+
+    .date {
+        margin: 0 0 0 auto;
+        color: var(--foreground3);
+    }
+}
+
+.post-content {
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+}

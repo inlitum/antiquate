@@ -1,0 +1,4 @@
+<button class="icon-button" [routerLink]="[route]" [ngClass]="{'active': active()}">
+    <span *ngIf="hasText() && (!hasIcon())">{{text}}</span>
+    <i *ngIf="hasIcon()" class="fa-solid {{currentIcon}}"></i>
+</button>

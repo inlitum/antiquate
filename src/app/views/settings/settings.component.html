@@ -1,0 +1,12 @@
+<div class="settings-container">
+    <div class="top-layer">
+        <div class="theme-card card auto-fill">
+            <div class="card-content">
+                <label for="theme">Theme:</label>
+                <select name="theme" id="theme" (change)="handleThemeChange($event.target)">
+                    <option *ngFor="let theme of themes" [value]="theme.class" [selected]="selectedTheme.class === theme.class">{{theme.displayName}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>

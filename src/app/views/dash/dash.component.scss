@@ -1,0 +1,75 @@
+.dash {
+    height     : 100%;
+    max-height : 100%;
+    overflow-y : auto;
+}
+
+.dash-container {
+    max-width             : 100%;
+    display               : grid;
+    margin                : 0 auto;
+    grid-template-columns : repeat(auto-fill, 300px);
+    grid-auto-rows        : 300px;
+    grid-auto-flow        : row dense;
+    grid-gap              : 10px;
+}
+
+.box {
+    background    : var(--background1);
+    border-radius : var(--border-radius);
+    width         : 100%;
+    display       : flex;
+    //padding-top   : 50%;
+}
+
+p-dash-box {
+    height  : 100%;
+    width   : 100%;
+    display : flex;
+}
+
+.box-content {
+    padding   : 1rem;
+    flex-grow : 1;
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    flex-grow: 1;
+    border-radius: var(--border-radius);
+    object-fit: cover;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.tall {
+    grid-column : span 1;
+    grid-row    : span 2;
+}
+
+.wide {
+    grid-row    : span 1;
+    grid-column : span 2;
+}
+
+.square {
+    grid-row    : span 1;
+    grid-column : span 1;
+}
+
+.large-square {
+    grid-row    : span 2;
+    grid-column : span 2;
+}
+
+@media screen and (max-width: 790px) {
+    .dash-container {
+        grid-template-columns: 300px;
+        grid-auto-rows        : 300px;
+    }
+
+    .box {
+        grid-column: span 1;
+    }
+}
